@@ -8,6 +8,7 @@ Minimal Eleventy setup:
 - Use a shared layout (e.g., `shared/templates/base.njk`) or create one under `sites/m10e.systems/_includes/` with the following `<head>` links:
 
 ```njk
+{% raw %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,6 +22,7 @@ Minimal Eleventy setup:
   {{ content | safe }}
 </body>
 </html>
+{% endraw %}
 ```
 
 Authoring: edit `index.md` (and future pages) in Obsidian; avoid HTML-fragment styling in Markdown so the layout stays reusable. If you add front matter, set `layout: base` (or your chosen layout name) and optionally `title: M10e Systems`.
