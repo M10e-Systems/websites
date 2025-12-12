@@ -1,1 +1,8 @@
-Hi world! 👋🏽
+---
+title: Blog
+permalink: /blog/index.html
+---
+
+# Blog
+
+Hi world!

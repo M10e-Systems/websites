@@ -1,5 +1,12 @@
+---
+title: Home
+permalink: /index.html
+---
+
+# Kevin Barrett
+
 Welcome to my page.
 
-[[Hello|Blog]]
-CV
-About Me
+- [Blog](/blog/)
+- CV
+- About me

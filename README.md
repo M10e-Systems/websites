@@ -8,3 +8,22 @@ Sites included:
 - m10e.systems
 
 Each site has its own build settings and deployment pipeline.
+
+## Netlify configuration
+
+This repo is intended to back two separate Netlify sites (two Netlify projects)
+pointing at the same GitHub repository.
+
+### m10e.systems
+
+Netlify UI → Site configuration → Build & deploy:
+- Base directory: (empty)
+- Build command: `npx @11ty/eleventy --config=.eleventy.js`
+- Publish directory: `_site/m10e.systems`
+
+### kevinbarrett.dev
+
+Netlify UI → Site configuration → Build & deploy:
+- Base directory: (empty)
+- Build command: `npx @11ty/eleventy --config=.eleventy.kevinbarrett.dev.js`
+- Publish directory: `_site/kevinbarrett.dev`
