@@ -119,7 +119,7 @@ Then:
 
 This was the first time the CLI stack had ever run **as a distributed system**.
 
-Some legacy features (like named pipes for on-box file transfer) obviously needed rethinking, but that was the point: gRPC let us shed old implementation assumptions.
+Some legacy fea{tures (like named pipes for on-box file transfer) obviously needed rethinking, but that was the point: gRPC let us shed old implementation assumptions.
 ***
 # **Result: A Path to Scalability**
 By the end of the ten-week PoC, the real achievement wasn’t that DBus had been “replaced.” It was that a door opened—one many of us were quietly convinced didn’t even have hinges. The CLI Gateway Service and CLI Client Shell, long assumed to be inseparable from the monolith, successfully operated as independent services, talking over gRPC across container boundaries. That single shift reframed what the entire platform could become.
