@@ -22,7 +22,7 @@ I take on focused, well-bounded engagements that leave teams with systems they c
 ### Architecture & Workflow Assessment
 A short, opinionated pass over your system to identify where complexity, ritual, or hidden coupling is doing unnecessary damage. You get a clear map of what's fragile, what's accidental, and what's worth fixing -- with no obligation to proceed further.
 
-### Scoped Modernization Sprint
+### Scoped Reliability Sprint
 A time-boxed effort to repair or replace a specific pain point: builds that no one trusts, deployments that require folklore, or automation that quietly shifts risk onto humans.
 The goal is durability, not novelty.
 
@@ -34,10 +34,11 @@ No black boxes. No magic.
 ## How I Work
 
 I show up and learn how your system actually works.  
-Then I leave behind automation, workflows, and documentation that no longer rely on memory or heroics.
+Then I leave behind automation, workflows, and documentation that no longer depend on individual recall, social pressure, or exceptional effort.
 
 **Systems can -- and should -- explain themselves.**  
-If a process depends on memory, heroics, or social pressure, I treat that as a design flaw.  
+When a process only works because the right person remembers the sequence or steps in at just the right moment, that’s not just a quirk -- it's a design flaw. 
+
 Good automation earns trust by being legible, inspectable, and honest about where humans are still required.
 
 ***
@@ -50,4 +51,4 @@ Curious whether I can help your team? Send a note.
 
 ***
 
-M10e Systems — engineering with longevity, legibility, lucidity.
+M10e Systems — engineering with longevity, legibility, and lucidity.
