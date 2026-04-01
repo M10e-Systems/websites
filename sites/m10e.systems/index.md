@@ -89,6 +89,32 @@ Highlights:
 - supported more maintainable future change
 - emphasized understanding and handoff, not just implementation
 
+</div>
+
+<div class="proof-card">
+
+### NETCONF CLI for routers
+
+Designed a Cisco-like NETCONF command line that gives engineering teams an honest, dynamic interface for configuration, validation, and monitoring without layering another orchestration tool.
+
+Highlights:
+- live visibility into configuration drift and compliance state
+- reusable command macros, templates, and reports for faster execution
+- audit-ready transcripts that become documentation for future operators
+
+</div>
+
+<div class="proof-card">
+
+### Artifact-driven, human-gated agentic workflow
+
+Built an engineering-focused AI workflow where agents automate parts of development while humans gate deliverables through explicit artifacts and checkpoints.
+
+Highlights:
+- an artifact catalog that makes agent intent and status visible
+- human checkpoints before every release candidate and architectural change
+- clear handoff between agents and engineers so ownership stays with the team
+
 More detailed case writeups are being prepared.
 
 </div>
