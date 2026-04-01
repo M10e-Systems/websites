@@ -3,21 +3,23 @@ title: M10e Systems
 layout: base
 ---
 
-<div class="eyebrow">M10e Systems</div>
+<section class="hero-block">
+  <div class="eyebrow">M10e Systems</div>
 
 # Maintainable systems for teams under real constraints.
 
 M10e Systems helps software teams improve architecture, workflows, and technical clarity through short, scoped consulting engagements focused on maintainability, ownership, and practical next steps.
 
-<div class="cta-row">
-  <a class="button primary-cta" href="mailto:kevin@m10e.systems">Talk about your team's systems</a>
-</div>
+  <div class="cta-row">
+    <a class="button primary-cta" href="mailto:kevin@m10e.systems">Talk about your team's systems</a>
+  </div>
 
-<div class="hero-note">
-  For availability or scope discussions: <code>kevin@m10e.systems</code>
-</div>
+  <div class="hero-note">
+    For availability or scope discussions: <code>kevin@m10e.systems</code>
+  </div>
 
-<div class="hero-proof">Short, scoped engagements. Clear recommendations. Better handoff.</div>
+  <div class="hero-proof">Short, scoped engagements. Clear recommendations. Better handoff.</div>
+</section>
 
 ***
 
