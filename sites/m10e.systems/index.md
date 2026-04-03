@@ -3,59 +3,143 @@ title: M10e Systems
 layout: base
 ---
 
-# M10e Systems
+<section class="hero-block">
+  <div class="eyebrow">M10e Systems</div>
 
-**Automation that respects the humans who run it.**
+# Maintainable systems for teams under real constraints.
 
-*Lack of maintainability is a software defect.*
+M10e Systems helps software teams improve architecture, workflows, and technical clarity through short, scoped consulting engagements focused on maintainability, ownership, and practical next steps.
 
-M10e Systems is the independent consulting practice of Kevin Barrett.
-I work with small engineering teams who are smart, resource-constrained, and slightly weary of systems that only work when the right person remembers the trick.
+  <div class="cta-row">
+    <a class="button primary-cta" href="mailto:kevin@m10e.systems">Talk about your team's systems</a>
+  </div>
 
-If you need automation that can be inspected, workflows that can be explained, or someone who can enter a mildly disordered system and leave behind something your team can actually own -- welcome.
+  <div class="hero-note">
+    For availability or scope discussions: <code>kevin@m10e.systems</code>
+  </div>
+
+  <div class="hero-proof">Short, scoped engagements. Clear recommendations. Better handoff.</div>
+</section>
+
+***
+
+## When systems get harder to operate than they should
+
+Your team may not need a giant transformation.
+You may need a clearer read on where friction is actually coming from — across architecture, workflows, ownership, and handoffs.
+
+This is a good fit when:
+- architecture is getting harder to explain or reason about
+- workflows feel fragile, unclear, or overly manual
+- ownership is uneven across systems or teams
+- handoffs are creating drag between people, tools, or environments
+- you need a practical path forward, not generic best-practice advice
 
 ***
 
-## What I Actually Do
-I take on focused, well-bounded engagements that leave teams with systems they can run without me.
+## Architecture & Workflow Assessment
 
-### Architecture & Workflow Assessment
-A short, opinionated pass over your system to identify where complexity, ritual, or hidden coupling is doing unnecessary damage. You get a clear map of what's fragile, what's accidental, and what's worth fixing -- with no obligation to proceed further.
+A focused consulting engagement for teams that need to understand where technical and operational friction is coming from — and what to do about it.
 
-### Scoped Reliability Sprint
-A time-boxed effort to repair or replace a specific pain point: builds that no one trusts, deployments that require folklore, or automation that quietly shifts risk onto humans.
-The goal is durability, not novelty.
+This assessment is a good fit when:
+- delivery workflows feel fragile or harder to reason about than they should
+- architecture decisions have become difficult to inspect or explain
+- handoffs between systems or people are creating drag
+- your team needs prioritized next steps, not abstract recommendations
 
-### Agentic Workflow Design & Handoff
-When automation needs judgment, I design explicit human-in-the-loop workflows -- where responsibilities, decisions, and failure modes are visible.
-No black boxes. No magic.
+Typical outcomes include:
+- a clearer picture of where friction actually lives
+- documented tradeoffs, constraints, and ownership issues
+- prioritized recommendations
+- a practical roadmap for what to address now, next, and later
 
-***
-## How I Work
-
-I show up and learn how your system actually works.  
-Then I leave behind automation, workflows, and documentation that no longer depend on individual recall, social pressure, or exceptional effort.
-
-**Systems can -- and should -- explain themselves.**  
-When a process only works because the right person remembers the sequence or steps in at just the right moment, that’s not just a quirk -- it's a design flaw. 
-
-Good automation earns trust by being legible, inspectable, and honest about where humans are still required.
+<div class="inline-cta">
+  <a class="button" href="mailto:kevin@m10e.systems">Talk about whether this fits your team</a>
+</div>
 
 ***
-## Proof of Process Discipline
 
-I documented an AI agentic workflow that treats agents as engineered components with explicit roles, state, validation, and human gates. It was proven against real engineering work, iterated through failure modes, and is now packaged for community sharing.
+## Built for practical improvement, not consulting theater
+
+I work best with teams that want practical improvement rather than consulting theater.
+
+That means emphasizing:
+- maintainability over cleverness
+- clear boundaries over scope drift
+- inspectable systems over black-box magic
+- documented handoff over contractor dependency
+- real tradeoffs over abstract best practices
+
+The goal is not to leave behind a pile of recommendations nobody owns.
+The goal is to make systems easier to understand, easier to operate, and easier for your team to change responsibly.
+
+***
+
+## Selected work
+
+<div class="proof-card">
+
+### DBus → gRPC migration / redesign
+
+A system redesign effort focused on clearer boundaries, maintainable architecture, and better long-term operability.
+
+Highlights:
+- reduced architectural ambiguity
+- improved service and interface clarity
+- supported more maintainable future change
+- emphasized understanding and handoff, not just implementation
+
+</div>
+
+<div class="proof-card">
+
+### NETCONF CLI for routers
+
+Designed a Cisco-like NETCONF command line that gives engineering teams an honest, dynamic interface for configuration, validation, and monitoring without layering another orchestration tool.
+
+Highlights:
+- live visibility into configuration drift and compliance state
+- reusable command macros, templates, and reports for faster execution
+- audit-ready transcripts that become documentation for future operators
+
+</div>
+
+<div class="proof-card">
+
+### Artifact-driven, human-gated agentic workflow
+
+Built an engineering-focused AI workflow where agents automate parts of development while humans gate every deliverable through artifacts, tickets, and checkpoints.
+
+Highlights:
+- an artifact catalog that keeps agent intent and status visible
+- human checkpoints before every release candidate and architectural change
+- clear handoff between agents and engineers so ownership stays with the team
 
 Read the full case study → <a href="/portfolio/agentic-workflow-case/">Human-Governed Agentic Workflow</a>
 
-***
-## Contact
-
-Curious whether I can help your team? Send a note.
-
-**Email:** kevin@m10e.systems
-**Location:** Maryland, USA (remote friendly)
+</div>
 
 ***
 
-M10e Systems — engineering with longevity, legibility, and lucidity.
+## Other ways M10e can help
+
+### Scoped Modernization Sprint
+
+A bounded implementation effort focused on improving a specific system, workflow, or operational bottleneck.
+
+### Agentic Workflow Design & Handoff
+
+Design of inspectable agent-assisted workflows with explicit human checkpoints, clear responsibilities, and handoff-ready documentation.
+
+These are follow-on engagements, not the main story of the site.
+
+***
+
+## If your team's systems feel harder to operate than they should, let's talk.
+
+If you're trying to understand where technical or operational drag is coming from — and what a practical path forward looks like — reach out.
+
+For availability or scope discussions:  
+`kevin@m10e.systems`
+
+Email with a short note about your team, systems, or current bottleneck.
