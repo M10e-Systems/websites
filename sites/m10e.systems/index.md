@@ -108,14 +108,14 @@ Highlights:
 
 ### Artifact-driven, human-gated agentic workflow
 
-Built an engineering-focused AI workflow where agents automate parts of development while humans gate deliverables through explicit artifacts and checkpoints.
+Built an engineering-focused AI workflow where agents automate parts of development while humans gate every deliverable through artifacts, tickets, and checkpoints.
 
 Highlights:
-- an artifact catalog that makes agent intent and status visible
+- an artifact catalog that keeps agent intent and status visible
 - human checkpoints before every release candidate and architectural change
 - clear handoff between agents and engineers so ownership stays with the team
 
-More detailed case writeups are being prepared.
+Read the full case study → <a href="/portfolio/agentic-workflow-case/">Human-Governed Agentic Workflow</a>
 
 </div>
 
