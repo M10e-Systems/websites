@@ -79,6 +79,21 @@ The goal is to make systems easier to understand, easier to operate, and easier 
 
 <div class="proof-card">
 
+### Artifact-driven, human-gated agentic workflow
+
+Built an engineering-focused AI workflow where agents automate parts of development while humans gate deliverables through explicit artifacts and checkpoints.
+
+Highlights:
+- an artifact catalog that makes agent intent and status visible
+- human checkpoints before every release candidate and architectural change
+- clear handoff between agents and engineers so ownership stays with the team
+
+<a class="case-link" href="/portfolio/agentic-workflow/">Read the case study ↗</a>
+
+</div>
+
+<div class="proof-card">
+
 ### DBus → gRPC migration / redesign
 
 A system redesign effort focused on clearer boundaries, maintainable architecture, and better long-term operability.
@@ -88,6 +103,8 @@ Highlights:
 - improved service and interface clarity
 - supported more maintainable future change
 - emphasized understanding and handoff, not just implementation
+
+<a class="case-link" href="/portfolio/dbus-to-grpc/">Read the case study ↗</a>
 
 </div>
 
@@ -102,20 +119,7 @@ Highlights:
 - reusable command macros, templates, and reports for faster execution
 - audit-ready transcripts that become documentation for future operators
 
-</div>
-
-<div class="proof-card">
-
-### Artifact-driven, human-gated agentic workflow
-
-Built an engineering-focused AI workflow where agents automate parts of development while humans gate deliverables through explicit artifacts and checkpoints.
-
-Highlights:
-- an artifact catalog that makes agent intent and status visible
-- human checkpoints before every release candidate and architectural change
-- clear handoff between agents and engineers so ownership stays with the team
-
-More detailed case writeups are being prepared.
+<a class="case-link" href="/portfolio/netconf-cli/">Read the case study ↗</a>
 
 </div>
 

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Kevin Barrett" }}</title>
+  <meta name="description" content="Kevin Barrett — family man, software engineer, born again Christian, and builder of tough systems and stronger workflows.">
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <link rel="stylesheet" href="/kevin.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://m10e.systems">M10e Systems</a>
+    </nav>
+  </header>
+  {{ content | safe }}
+</body>
+</html>
