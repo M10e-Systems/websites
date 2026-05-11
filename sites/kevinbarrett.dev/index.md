@@ -31,8 +31,9 @@ permalink: /
   </section>
 
   <section class="latest-writing" id="latest-articles">
-    <h2>Latest writing (drafts in progress)</h2>
+    <h2>Latest writing</h2>
     <ul>
+      <li><strong>I Open-Sourced My Agentic Development Workflow</strong> — the public release announcement for the workflow, its constraints, and the review gates it depends on.</li>
       <li><strong>How I Built a Team of Agents Using Codex And Discord</strong> — a tactical log of orchestration, role design, and Discord as the control room.</li>
       <li><strong>Agent Teams: A Practical Guide to Building and Operating Them</strong> — playbooks for governance, accountability, and keeping agents honest once they ship.</li>
       <li><strong>How My Agent Team Project Outgrew OpenClaw</strong> — why the work needed its own site, standalone tooling, and sharper coordination than the original prototype could provide.</li>

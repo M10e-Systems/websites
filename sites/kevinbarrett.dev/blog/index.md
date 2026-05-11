@@ -6,7 +6,7 @@ permalink: /blog/
 
 <main>
   <section class="hero-block">
-    <p class="eyebrow">Kevin Barrett • notes, stories, and the occasional long inhale</p>
+    <p class="eyebrow">Kevin Barrett • notes, stories and the occasional <span id="blog-easter-egg">long inhale</span>.</p>
     <h1>Blog</h1>
     <p class="hero-subhead">This is where I work things out in public: hard problems, software, faith, and the weird little stories that show up when you keep building things for real people. Some posts will be technical, some personal, and some will probably try to do both at once.</p>
     <div class="hero-cta">
@@ -16,7 +16,53 @@ permalink: /blog/
     <p class="hero-note">If you’re looking for the consulting side, go to <a href="https://m10e.systems">m10e.systems</a>. If you want the more human version—the experiments, the laughs, the lessons, and the occasional sermon tucked inside the engineering—you’re in the right place.</p>
   </section>
 
+  <script>
+    (() => {
+      const slot = document.getElementById('blog-easter-egg');
+      if (!slot) return;
+
+      const options = [
+        'plot twist',
+        'rabbit hole',
+        'mic drop',
+        'deep breath',
+        'careful mischief',
+        'quiet rebellion',
+        'midnight edit',
+        'unnecessary excellence',
+        'friendly chaos',
+        'small miracle',
+        'measured chaos',
+        'late review',
+        'spiral with receipts',
+        'gentle heresy',
+        'unfinished thought',
+        'good trouble',
+        'recalibration',
+        'well-timed detour',
+        'actual insight',
+        'slightly suspicious confidence'
+      ];
+
+      slot.textContent = options[Math.floor(Math.random() * options.length)];
+    })();
+  </script>
+
   <section class="section-card" id="posts">
+    <h2>Published writing</h2>
+    <div class="grid-two">
+      <article class="featured-card">
+        <h3>Agentic Workflow for Software Engineering</h3>
+        <p>Public release announcement for the workflow, why it exists, and the engineering constraints it was built to respect.</p>
+        <p><a href="/blog/agentic-workflow/">Read the post</a></p>
+      </article>
+      <article class="featured-card">
+        <h3>Codex Skill: KeePassHTTP Integration</h3>
+        <p>Release announcement for a narrow, local secret-lookup skill built for KeePass 2.x and browser-use workflows.</p>
+        <p><a href="/blog/keepasshttp-integration/">Read the post</a></p>
+      </article>
+    </div>
+
     <h2>Draft posts in progress</h2>
     <div class="grid-two">
       <article class="featured-card">
