@@ -13,7 +13,8 @@ permalink: /
       <a class="button primary" href="#latest-articles">Latest articles</a>
       <a class="button ghost" href="/blog/">Blog landing</a>
     </div>
-    <p class="hero-note">Professionally, I consult with <a href="https://m10e.systems">M10e Systems</a>. This is the quieter side of the same life: observations, experiments, notes from the field, and the occasional late-night ramble.</p>
+    <p class="hero-note">Professionally, I work at <a href="https://vcinity.io">Vcinity</a>, where I focus on improving engineering frameworks, driving customer value, and helping teams adopt AI in practical, sustainable ways. I also consult through <a href="https://m10e.systems">M10e Systems</a>.</p>
+    <p class="hero-note">This site is the quieter side of that life: observations, experiments, notes from the field, and the occasional late-night ramble.</p>
   </section>
 
   <section class="section-card">
