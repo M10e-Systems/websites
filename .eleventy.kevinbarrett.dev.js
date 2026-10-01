@@ -2,7 +2,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("**/_site/**");
 
   eleventyConfig.addPassthroughCopy({
-    "sites/kevinbarrett.dev/kb.css": "kb.css",
+    "sites/kevinbarrett.dev/blog-post.css": "blog-post.css",
   });
 
   eleventyConfig.addGlobalData("layout", "base");

@@ -1,0 +1,19 @@
+---
+layout: base
+body_class: blog-post-page
+---
+<main class="blog-post-shell">
+  <div class="blog-post">
+    {{ content | safe }}
+  </div>
+
+  {% if one_prompt %}
+    <aside class="post-sidebar" aria-labelledby="one-prompt-title">
+      <p class="eyebrow">Practical setup</p>
+      <h2 id="one-prompt-title">{{ sidebar_title or "One-prompt setup" }}</h2>
+      <p>{{ sidebar_intro }}</p>
+      <pre class="prompt-block"><code>{{ one_prompt }}</code></pre>
+      <p class="sidebar-note">Adapt the document location to the runbook for your own Project.</p>
+    </aside>
+  {% endif %}
+</main>

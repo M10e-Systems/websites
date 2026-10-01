@@ -6,9 +6,11 @@
   <title>{{ title or "Kevin Barrett" }}</title>
   <meta name="description" content="Kevin Barrett — software engineer, family man, and builder of tough systems and stronger workflows.">
   <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-  <link rel="stylesheet" href="/kevin.css">
+  {% if body_class == "blog-post-page" %}
+    <link rel="stylesheet" href="/blog-post.css">
+  {% endif %}
 </head>
-<body>
+<body{% if body_class %} class="{{ body_class }}"{% endif %}>
   <header class="site-header">
     <nav class="site-nav">
       <a href="/">Home</a>

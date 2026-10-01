@@ -61,6 +61,11 @@ permalink: /blog/
         <p>Release announcement for a narrow, local secret-lookup skill built for KeePass 2.x and browser-use workflows.</p>
         <p><a href="/blog/keepasshttp-integration/">Read the post</a></p>
       </article>
+      <article class="featured-card">
+        <h3>Give Your ChatGPT Project a Runbook It Can Update</h3>
+        <p>A practical pattern for giving long-running ChatGPT Projects durable, inspectable operating instructions they can help maintain.</p>
+        <p><a href="/blog/durable-chatbot-memory/">Read the post</a></p>
+      </article>
     </div>
 
     <h2>Draft posts in progress</h2>
